@@ -1,0 +1,198 @@
+body,
+p,
+h1,
+h2,
+h3 {
+    margin: 0px;
+}
+
+body {
+    line-height: 1.8;
+    letter-spacing: 1.5;
+}
+
+h1 {
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+/* Header */
+
+
+/* Nav-Bar */
+
+#NavBar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    opacity: 1;
+}
+
+#NavBar i {
+    /* Home icon only */
+    margin-left: 4px;
+}
+
+#navbarSupportedContent i {
+    /* Other icons */
+    margin: 0px 4px 0px 10px;
+}
+
+.leftalign {
+    position: absolute;
+    right: 20px;
+}
+
+
+/* Main */
+
+#main {
+    text-align: center;
+    color: aliceblue;
+    background-color: tomato;
+    /* background-image: url(Scene-24.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; */
+    padding: 120px 0px 60px;
+}
+
+#main h1 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 60px;
+    ;
+}
+
+#main h2 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#main h3 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#main img {
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+}
+
+
+/* Education */
+
+#Education {
+    background-color: white;
+    color: tomato;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#Education .carousel-item {
+    padding: 60px 280px 80px;
+    line-height: 2;
+}
+
+#Education img {
+    background-color: tomato;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgb(189, 182, 182);
+}
+
+
+/* Skills */
+
+#Skills {
+    text-align: center;
+    background-color: tomato;
+    color: #fff;
+    padding: 60px 30px 30px;
+}
+
+.card {
+    margin: 50px;
+    border-radius: 10px;
+    color: black;
+}
+
+.card-body {
+    text-align: left;
+}
+
+
+/* Projects  */
+
+#Projects {
+    text-align: center;
+    padding: 60px 30px 30px;
+    background-color: white;
+    color: tomato;
+}
+
+.project1 {
+    background-image: url(https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2020/04/Types-of-Wall-Texture-sand-swirl.jpg);
+    background-size: 100vw 350px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+.project1:hover {
+    background-image: url(2.png);
+    background-size: 100vw 350px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project2 {
+    background-image: url(https://thumbs.dreamstime.com/b/closeup-to-white-crumpled-paper-texture-background-abstract-copy-space-156435813.jpg);
+    background-size: 100vw 350px;
+    height: 350px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project2:hover {
+    background-image: url(3.jpg);
+    background-size: 100vw 350px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.images-project {
+    margin-top: 1130px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+/* Footer */
+
+#Footer {
+    text-align: center;
+    background-color: tomato;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    background-color: tomato;
+    color: #fff;
+}
+
+#Footer i {
+    margin: 0px 5px;
+}
+
+@media(max-width:807px) {
+    #Education .carousel-item {
+        padding: 10px 60px;
+        line-height: 2;
+    }
+}
