@@ -143,38 +143,70 @@ h1 {
     color: tomato;
 }
 
-.project1 {
-    background-image: url(https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2020/04/Types-of-Wall-Texture-sand-swirl.jpg);
-    background-size: 100vw 350px;
-    height: 350px;
+.projects {
+    background-size: 100vw 70px;
+    height: 70px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 20px;
     border-radius: 10px;
     transition: .4s ease-in-out;
+}
+
+.projectshov:hover {
+    background-size: 100vw 380px;
+    height: 380px;
+    transition: .8s ease-in-out;
+    box-shadow: 8px 8px 23px 1px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: 8px 8px 23px 1px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 8px 8px 23px 1px rgba(0, 0, 0, 0.72);
+}
+
+
+/* Project1 Specific */
+
+.project1 {
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
 }
 
 .project1:hover {
     background-image: url(2.png);
-    background-size: 100vw 350px;
-    height: 350px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+/* Project2 Specific */
+
 .project2 {
-    background-image: url(https://thumbs.dreamstime.com/b/closeup-to-white-crumpled-paper-texture-background-abstract-copy-space-156435813.jpg);
-    background-size: 100vw 350px;
-    height: 350px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    transition: .4s ease-in-out;
+    background-color: #7ed6df;
+    background-image: linear-gradient(315deg, #7ed6df 0%, #000000 74%);
 }
 
 .project2:hover {
+    background-image: url(2.png);
+}
+
+
+/* Project3 Specific */
+
+.project3 {
+    background-color: #1b2845;
+    background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+}
+
+.project3:hover {
+    background-image: url(2.png);
+}
+
+
+/* Coming Soon Specific */
+
+.comsoon {
+    background-color: #d2a813;
+    background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%);
+}
+
+.comsoon:hover {
     background-image: url(3.jpg);
-    background-size: 100vw 350px;
-    height: 350px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .images-project {
