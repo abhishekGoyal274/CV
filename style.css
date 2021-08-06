@@ -88,7 +88,11 @@ h1 {
     background-color: white;
     color: tomato;
     text-align: center;
-    padding-top: 60px;
+}
+
+#Education .heading {
+    background-color: rgb(189, 182, 182);
+    padding: 60px 40px 10px;
 }
 
 #Education .carousel-item {
@@ -120,7 +124,7 @@ h1 {
 }
 
 .card {
-    margin: 50px;
+    margin: 10px;
     border-radius: 10px;
     color: black;
 }
@@ -145,6 +149,8 @@ h1 {
     height: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 20px;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
 }
 
 .project1:hover {
@@ -160,6 +166,8 @@ h1 {
     height: 350px;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: .4s ease-in-out;
 }
 
 .project2:hover {
@@ -194,5 +202,9 @@ h1 {
     #Education .carousel-item {
         padding: 10px 60px;
         line-height: 2;
+    }
+    .leftalign {
+        position: relative;
+        margin-left: 20px;
     }
 }
