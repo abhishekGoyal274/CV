@@ -49,7 +49,7 @@ h1 {
 #main {
     text-align: center;
     color: aliceblue;
-    background-color: tomato;
+    background-color: #101820FF;
     /* background-image: url(Scene-24.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -86,7 +86,7 @@ h1 {
 
 #Education {
     background-color: white;
-    color: tomato;
+    color: #101820FF;
     text-align: center;
 }
 
@@ -101,7 +101,7 @@ h1 {
 }
 
 #Education img {
-    background-color: tomato;
+    background-color: #101820FF;
     width: 120px;
     height: 120px;
     color: #fff;
@@ -118,7 +118,7 @@ h1 {
 
 #Skills {
     text-align: center;
-    background-color: tomato;
+    background-color: #101820FF;
     color: #fff;
     padding: 60px 30px 30px;
 }
@@ -140,7 +140,7 @@ h1 {
     text-align: center;
     padding: 60px 30px 30px;
     background-color: white;
-    color: tomato;
+    color: #101820FF;
 }
 
 .projects {
@@ -170,7 +170,7 @@ h1 {
 }
 
 .project1:hover {
-    background-image: url(2.png);
+    background-image: url(1.png);
 }
 
 
@@ -189,24 +189,36 @@ h1 {
 /* Project3 Specific */
 
 .project3 {
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+}
+
+.project3:hover {
+    background-image: url(3.png);
+}
+
+
+/* Project4 Specific */
+
+.project4 {
     background-color: #1b2845;
     background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
 }
 
-.project3:hover {
-    background-image: url(2.png);
+.project4:hover {
+    background-image: url(4.png);
 }
 
 
 /* Coming Soon Specific */
 
 .comsoon {
-    background-color: #d2a813;
-    background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%);
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
 }
 
 .comsoon:hover {
-    background-image: url(3.jpg);
+    background-image: url(comingSoon.jpg);
 }
 
 .images-project {
@@ -219,10 +231,10 @@ h1 {
 
 #Footer {
     text-align: center;
-    background-color: tomato;
+    background-color: #101820FF;
     padding-top: 20px;
     padding-bottom: 8px;
-    background-color: tomato;
+    background-color: #101820FF;
     color: #fff;
 }
 
@@ -239,4 +251,48 @@ h1 {
         position: relative;
         margin-left: 20px;
     }
+    .projects {
+        margin-top: 20px;
+        border-radius: 10px;
+        background-size: 100vw 220px;
+        height: 220px;
+        transition: .8s ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .projectshov:hover {
+        background-size: 100vw 220px;
+        height: 220px;
+        transition: .8s ease-in-out;
+        box-shadow: 8px 8px 23px 1px rgba(0, 0, 0, 0.72);
+        -webkit-box-shadow: 8px 8px 23px 1px rgba(0, 0, 0, 0.72);
+        -moz-box-shadow: 8px 8px 23px 1px rgba(0, 0, 0, 0.72);
+    }
+    /* Project1 Specific */
+    .project1 {
+        background-image: url(1.png);
+    }
+    .project1:hover {}
+    /* Project2 Specific */
+    .project2 {
+        background-image: url(2.png);
+    }
+    .project2:hover {}
+    /* Project3 Specific */
+    .project3 {
+        background-image: url(3.png);
+    }
+    .project3:hover {}
+    /* Project4 Specific */
+    .project4 {
+        background-image: url(4.png);
+    }
+    .project4:hover {}
+    /* Coming Soon Specific */
+    .comsoon {
+        background-image: url(comingSoon.jpg);
+    }
+    .comsoon:hover {}
 }
+
+
+/* Horizontal Row Style */
