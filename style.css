@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body,
 p,
 h1,
@@ -91,7 +95,6 @@ h1 {
 }
 
 #Education .heading {
-    background-color: rgb(189, 182, 182);
     padding: 60px 40px 10px;
 }
 
@@ -165,8 +168,8 @@ h1 {
 /* Project1 Specific */
 
 .project1 {
-    background-color: #e84393;
-    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
 }
 
 .project1:hover {
@@ -189,8 +192,8 @@ h1 {
 /* Project3 Specific */
 
 .project3 {
-    background-color: #4834d4;
-    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+    background-color: #e056fd;
+    background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%);
 }
 
 .project3:hover {
@@ -201,12 +204,21 @@ h1 {
 /* Project4 Specific */
 
 .project4 {
-    background-color: #1b2845;
-    background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+    background-color: #7a7adb;
+    background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);
 }
 
 .project4:hover {
     background-image: url(4.png);
+}
+
+.project5 {
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+
+.project5:hover {
+    background-image: url(5.png);
 }
 
 
@@ -287,6 +299,11 @@ h1 {
         background-image: url(4.png);
     }
     .project4:hover {}
+    /* Project5 Specific */
+    .project5 {
+        background-image: url(5.png);
+    }
+    .project5:hover {}
     /* Coming Soon Specific */
     .comsoon {
         background-image: url(comingSoon.jpg);
@@ -296,3 +313,13 @@ h1 {
 
 
 /* Horizontal Row Style */
+
+
+/* background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%); 
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);*/
