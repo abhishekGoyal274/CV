@@ -51,13 +51,10 @@ h1 {
 /* Main */
 
 #main {
+    height: 100vh;
     text-align: center;
     color: aliceblue;
     background-color: #101820FF;
-    /* background-image: url(Scene-24.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed; */
     padding: 120px 0px 60px;
 }
 
@@ -121,9 +118,18 @@ h1 {
 
 #Skills {
     text-align: center;
-    background-color: #101820FF;
-    color: #fff;
+    /* background-color: #101820FF; */
     padding: 60px 30px 30px;
+}
+
+.boxEffect {
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.boxEffect:hover {
+    transition: .4s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .card {
