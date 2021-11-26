@@ -1,0 +1,253 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+}
+
+body,
+p,
+h1,
+h2,
+h3 {
+    margin: 0px;
+}
+
+body {
+    line-height: 1.8;
+    letter-spacing: 1.5;
+}
+
+h1 {
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+/* Header */
+
+
+/* Nav-Bar */
+
+#NavBar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    opacity: 1;
+}
+
+#NavBar i {
+    /* Home icon only */
+    margin-left: 4px;
+}
+
+#navbarSupportedContent i {
+    /* Other icons */
+    margin: 0px 4px 0px 10px;
+}
+
+.leftalign {
+    position: absolute;
+    right: 20px;
+}
+
+
+/* Main */
+
+#main {
+    height: 100vh;
+    text-align: center;
+    color: aliceblue;
+    background-color: #101820FF;
+    padding: 100px 0px 60px;
+}
+
+#main h1 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 60px;
+    ;
+}
+
+#main h2 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#main h3 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#main img {
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+}
+
+
+/* Education */
+
+#Education {
+    background-color: white;
+    color: #101820FF;
+    text-align: center;
+}
+
+#Education .heading {
+    padding: 60px 40px 10px;
+}
+
+#Education .carousel-item {
+    padding: 60px 280px 80px;
+    line-height: 2;
+}
+
+#Education img {
+    background-color: #101820FF;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgb(189, 182, 182);
+}
+
+
+/* Skills */
+
+#Skills {
+    text-align: center;
+    /* background-color: #101820FF; */
+    padding: 60px 30px 30px;
+}
+
+.boxEffect {
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.boxEffect:hover {
+    transition: .4s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.card-body {
+    text-align: left;
+}
+
+
+/* Projects  */
+
+#Projects {
+    text-align: center;
+    padding: 60px 30px 30px;
+    background-color: white;
+    color: #101820FF;
+}
+
+.projects {
+    background-size: 100vw 270px;
+    height: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+}
+
+
+/* Project1 Specific */
+
+.project1 {
+    background-image: url(../Images/1.png);
+}
+
+
+/* Project2 Specific */
+
+.project2 {
+    background-image: url(../Images/2.png);
+}
+
+
+/* Project3 Specific */
+
+.project3 {
+    background-image: url(../Images/3.png);
+}
+
+
+/* Project4 Specific */
+
+.project4 {
+    background-image: url(../Images/4.png);
+}
+
+
+/* Project5 Specific */
+
+.project5 {
+    background-image: url(../Images/5.png);
+}
+
+
+/* Project5 Specific */
+
+.project6 {
+    background-image: url(../Images/6.png);
+}
+
+
+/* Coming Soon Specific */
+
+.comsoon {
+    background-image: url(../Images/comingSoon.jpg);
+}
+
+.images-project {
+    margin-top: 1130px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+/* Footer */
+
+#Footer {
+    text-align: center;
+    background-color: #101820FF;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    background-color: #101820FF;
+    color: #fff;
+}
+
+#Footer i {
+    margin: 0px 5px;
+}
+
+@media(max-width:807px) {
+    #Education .carousel-item {
+        padding: 10px 60px;
+        line-height: 2;
+    }
+    .leftalign {
+        position: relative;
+        margin-left: 20px;
+    }
+}
