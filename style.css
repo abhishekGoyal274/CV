@@ -2,6 +2,10 @@
     display: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 p,
 h1,
@@ -55,7 +59,7 @@ h1 {
     text-align: center;
     color: aliceblue;
     background-color: #101820FF;
-    padding: 120px 0px 60px;
+    padding: 100px 0px 60px;
 }
 
 #main h1 {
